@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="content-form">
+            <div class="header">
+                <h1>Aplicacion de tareas</h1>
+            </div>
+
+                <form id="formulario" action="">
+                    <label for="tarea">Tarea</label>
+                    <input id="tarea" name="tarea" type="text" placeholder="Tarea">
+                    <label for="description">Descripción</label>
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    <br>  
+                    <input id="btnEnviar" name="btnEnviar" type="submit" value="Enviar">    
+                </form>
+            </div>
+            <div class="content-task">
+                <div class="header-task">
+                    <h2>Mis Tareas</h2>
+                </div>
+                <div id="task-list" class="task-list">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
